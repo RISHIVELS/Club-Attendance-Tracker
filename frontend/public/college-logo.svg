@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#1e40af" stroke-width="3"/>
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#1e40af" stroke-width="1"/>
+  
+  <!-- Om Symbol -->
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#ea580c" stroke-width="2"/>
+  <text x="100" y="115" font-size="40" fill="#ea580c" text-anchor="middle" font-family="serif" font-weight="bold">ॐ</text>
+  
+  <!-- College Name Arc -->
+  <path id="topArc" fill="none" d="M 30,100 A 70,70 0 0,1 170,100"/>
+  <text font-size="10" fill="#1e40af" font-weight="bold">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">
+      SRI VENKATESWARA COLLEGE OF ENGINEERING
+    </textPath>
+  </text>
+  
+  <!-- Bottom Text -->
+  <path id="bottomArc" fill="none" d="M 30,100 A 70,70 0 0,0 170,100"/>
+  <text font-size="8" fill="#1e40af" font-weight="bold">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+      निष्ठा परम् धर्मम् • Commitment is Virtue
+    </textPath>
+  </text>
+  
+  <!-- Engineering Symbols -->
+  <g transform="translate(20, 60)">
+    <!-- Atom symbol -->
+    <circle cx="0" cy="0" r="3" fill="#1e40af"/>
+    <ellipse cx="0" cy="0" rx="8" ry="3" fill="none" stroke="#1e40af" stroke-width="0.5"/>
+    <ellipse cx="0" cy="0" rx="3" ry="8" fill="none" stroke="#1e40af" stroke-width="0.5"/>
+  </g>
+  
+  <g transform="translate(180, 60)">
+    <!-- Gear symbol -->
+    <circle cx="0" cy="0" r="5" fill="none" stroke="#1e40af" stroke-width="1"/>
+    <circle cx="0" cy="0" r="2" fill="#1e40af"/>
+  </g>
+  
+  <g transform="translate(20, 140)">
+    <!-- DNA helix -->
+    <path d="M -3,-5 Q 0,-3 3,-5 M -3,0 Q 0,2 3,0 M -3,5 Q 0,3 3,5" fill="none" stroke="#1e40af" stroke-width="0.8"/>
+  </g>
+  
+  <g transform="translate(180, 140)">
+    <!-- Circuit symbol -->
+    <rect x="-4" y="-4" width="8" height="8" fill="none" stroke="#1e40af" stroke-width="0.8"/>
+    <circle cx="0" cy="0" r="1.5" fill="#1e40af"/>
+  </g>
+</svg>

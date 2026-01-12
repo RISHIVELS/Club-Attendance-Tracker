@@ -7,9 +7,10 @@ const QRCode = require("qrcode");
 // Create a new team for an event
 const createTeam = async (req, res) => {
   const { eventId } = req.params;
-
+  console.log(eventId);
   const { leaderName, email, department, year, phoneNumber, teamName } =
     req.body;
+  console.log(req.body);
   if (
     !leaderName ||
     !email ||

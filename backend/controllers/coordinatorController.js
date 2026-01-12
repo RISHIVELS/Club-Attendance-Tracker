@@ -39,6 +39,7 @@ const loginCoordinator = async (req, res) => {
     return res.status(codes.UNAUTHORIZED).json({ message: "Unauthorized" });
   }
   if (!coordinator) {
+    ī;
     return res
       .status(codes.NOT_FOUND)
       .json({ message: "Coordinator not found" });
@@ -49,7 +50,10 @@ const loginCoordinator = async (req, res) => {
     email: coordinator.email,
   });
 
-  res.cookie("token", token);
+  res.cookie("token", token, {
+    httpOnly: true, // prevents JS access
+    secure: process.env.NODE_ENV === "production", // only HTTPS in prod
+  });
   res.status(codes.OK).json({ coordinator, token });
 };
 

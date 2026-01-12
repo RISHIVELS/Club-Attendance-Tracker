@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://beakless-lashay-lunisolar.ngrok-free.dev",
+        target: "http://localhost:3000",
         changeOrigin: true,
         secure: false,
       },

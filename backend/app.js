@@ -21,12 +21,13 @@ app.use(
 
 app.use(morgan("tiny"));
 app.use(express.json());
-app.use(
-  cookieParser({
-    secret: process.env.JWT_SECRET,
-    httpOnly: true,
-  })
-);
+app.use(cookieParser(process.env.JWT_SECRET));
+// app.use(
+//   cookieParser({
+//     secret: process.env.JWT_SECRET,
+//     httpOnly: true,
+//   })
+// );
 
 // import db connection
 const connectDB = require("./db/connect");

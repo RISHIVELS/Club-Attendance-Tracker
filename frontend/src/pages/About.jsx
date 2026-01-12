@@ -169,13 +169,11 @@ const About = () => {
         <div className="text-center border-t border-base-300 pt-12">
           <div className="max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold text-base-content mb-4">
-              Created with by Rishivel S
+              Created by Rishivel S
             </h3>
             <p className="text-base-content/70 mb-6">
               Club Hub was designed and developed to solve real-world challenges
-              in club event management. Our mission is to make event
-              organization seamless and efficient for educational institutions
-              and clubs worldwide.
+              in club event management.
             </p>
           </div>
         </div>
