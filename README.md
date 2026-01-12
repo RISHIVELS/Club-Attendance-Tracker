@@ -22,7 +22,7 @@ This is a full-stack web application designed to manage club attendance efficien
 - **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
 - **DaisyUI:** A component library for Tailwind CSS.
 - **Recharts:** A composable charting library built on React components.
-- **html5-qrcode:** A library for QR code scanning.
+- **qr-code:** A library for QR code scanning.
 
 ### Backend
 
@@ -124,8 +124,3 @@ ClubAttendanceSystem/
 ### Analytics
 
 - `GET /api/v1/analytics/:eventId`: Get attendance analytics for an event.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request.
-
